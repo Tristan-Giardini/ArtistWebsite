@@ -6,7 +6,6 @@ const Homepage = () => {
   return (
     <Wrapper>
       <Intro>
-        <Underline>Rebecca Storm:</Underline>
         <Description>
           <div>CV - rebeccastorm@email.com</div>
           <Italic>whatever whatever whatever</Italic>
@@ -16,9 +15,7 @@ const Homepage = () => {
       </Intro>
       <SelectedWork>
         <Underline>Selected Work:</Underline>
-        <div>
-          <Work data={data} />
-        </div>
+        <Work data={data} />
       </SelectedWork>
     </Wrapper>
   );
@@ -26,13 +23,12 @@ const Homepage = () => {
 
 const Wrapper = styled.div`
   width: 98vw;
-  height: 100vh;
 `;
 
 const Intro = styled.div`
   padding: 2%;
   font-size: 150%;
-  margin: 3% 0% 3% 0%;
+  margin: 2% 0% 2% 0%;
   display: flex;
   flex-direction: row;
 `;
@@ -40,11 +36,12 @@ const Intro = styled.div`
 const Underline = styled.div`
   font-family: var(--font);
   text-decoration: underline;
+  padding: 2%;
 `;
 
 const Description = styled.div`
   font-family: var(--secondary-font);
-  padding-left: 10%;
+  /* padding-top: 1%; */
   font-size: 80%;
   div {
     padding-bottom: 7%;
@@ -56,7 +53,6 @@ const Italic = styled.div`
 `;
 
 const SelectedWork = styled.div`
-  padding: 2%;
   font-size: 150%;
   display: flex;
   flex-direction: column;

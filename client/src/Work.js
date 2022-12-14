@@ -1,30 +1,12 @@
 import styled from "styled-components";
-import Modal from "./Modal";
-import { useState } from "react";
 import ModalImage from "react-modal-image";
 
 const Work = ({ data }) => {
-  // const [image, setImage] = useState({ selectedImage: null });
-
-  // const handleImageClick = (image) => {
-  //   setImage({ selectedImage: image });
-  // };
-
   return (
     <>
       {data.map((object, index) => {
         return (
           <Wrapper key={index}>
-            {/* {!isModal ? null : <Modal work={object.work} />} */}
-            {/* <Image src={object.work} /> */}
-            <Image>
-              <ModalImage small={object.work} large={object.work} />
-            </Image>
-            {/* {image.selectedImage ? (
-              <Modal>
-                <img src={image.selectedImage} />
-              </Modal>
-            ) : null} */}
             <Credits>
               <Title>
                 {object.title}
@@ -34,9 +16,21 @@ const Work = ({ data }) => {
               <Description>{object.description}</Description>
               <Time>{object.time}</Time>
             </Credits>
+            <Image>
+              <ModalImage small={object.work} large={object.work} />
+            </Image>
           </Wrapper>
         );
       })}
+      <BackToTop>
+        <div
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
+          Back to top
+        </div>
+      </BackToTop>
     </>
   );
 };
@@ -45,7 +39,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 10% 0% 10% 0%;
+  margin: 10% 2% 10% 2%;
 `;
 
 const Image = styled.div`
@@ -54,14 +48,13 @@ const Image = styled.div`
 
 const Credits = styled.div`
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-direction: column;
-  margin-left: 15%;
-  width: 35%;
+  width: 50%;
   font-family: var(--secondary-font);
   font-size: 80%;
   div {
-    padding: 2.5%;
+    padding-bottom: 2.5%;
   }
 `;
 
@@ -84,6 +77,16 @@ const Description = styled.div`
 
 const Time = styled.div`
   font-size: 70%;
+`;
+
+const BackToTop = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font);
+  :hover {
+    cursor: pointer;
+  }
 `;
 
 export default Work;
