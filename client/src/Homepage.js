@@ -31,6 +31,8 @@ const Intro = styled.div`
   margin: 2% 0% 2% 0%;
   display: flex;
   flex-direction: row;
+  @media (max-width: 390px) {
+    font-size: 75%;
 `;
 
 const Underline = styled.div`
@@ -56,6 +58,8 @@ const SelectedWork = styled.div`
   font-size: 150%;
   display: flex;
   flex-direction: column;
+  @media (max-width: 390px) {
+    font-size: 75%;
 `;
 
 export default Homepage;

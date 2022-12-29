@@ -1,13 +1,14 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <Container>
       <Wrapper>
-        <Name>Rebecca Storm</Name>
-        <div>painting</div>
-        <div>photography</div>
-        <div>writing</div>
+        <Name to="/">Rebecca Storm</Name>
+        <StyledNav to="/painting">painting</StyledNav>
+        <StyledNav to="/photography">photography</StyledNav>
+        <StyledNav to="writing">writing</StyledNav>
       </Wrapper>
       <Gradient></Gradient>
     </Container>
@@ -30,9 +31,23 @@ const Wrapper = styled.div`
   background-color: white;
 `;
 
-const Name = styled.div`
+const StyledNav = styled(NavLink)`
+  font-size: 100%;
+  text-decoration: none;
+  color: black;
+  @media (max-width: 390px) {
+    font-size: 50%;
+  }
+`;
+
+const Name = styled(NavLink)`
   font-size: 150%;
+  color: black;
+  text-decoration: none;
   font-family: var(--font);
+  @media (max-width: 390px) {
+    font-size: 80%;
+  }
 `;
 
 const Gradient = styled.div`
