@@ -4,7 +4,8 @@ import GlobalStyles from "./GlobalStyles";
 import Header from "./Header";
 import Painting from "./Painting";
 import Photography from "./Photography";
-import Writing from "./assets/Writing";
+import Writing from "./Writing";
+import WritingExample from "./WritingExample";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/painting" element={<Painting />} />
         <Route path="/photography" element={<Photography />} />
         <Route path="/writing" element={<Writing />} />
+        <Route path="/writing/:piece" element={<WritingExample />} />
       </Routes>
     </BrowserRouter>
   );

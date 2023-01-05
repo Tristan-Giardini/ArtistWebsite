@@ -1,7 +1,12 @@
-import React from "react";
+const writing = [
+  {
+    title: "example1",
+    work: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec nisi luctus, fringilla elit eu, vestibulum tortor. Aliquam sagittis ex vel ligula cursus, in semper massa maximus. Integer ultricies laoreet varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vulputate, nulla in pretium fringilla, elit urna fermentum lorem, vel mollis erat diam non est. Fusce ullamcorper tincidunt finibus. Phasellus vitae dapibus turpis. Donec volutpat turpis vestibulum nisl mattis volutpat.",
+  },
+  {
+    title: "example2",
+    work: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec nisi luctus, fringilla elit eu, vestibulum tortor. Aliquam sagittis ex vel ligula cursus, in semper massa maximus. Integer ultricies laoreet varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vulputate, nulla in pretium fringilla, elit urna fermentum lorem, vel mollis erat diam non est. Fusce ullamcorper tincidunt finibus. Phasellus vitae dapibus turpis. Donec volutpat turpis vestibulum nisl mattis volutpat.<br><br>Aenean ut accumsan neque, vel bibendum quam. Nulla id metus posuere, euismod nibh sed, gravida ex. Fusce sit amet facilisis nunc, eu porttitor purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi sollicitudin nunc sed augue tincidunt fermentum. Quisque condimentum elementum sem, nec tristique lectus. Praesent vel bibendum neque.<br><br>Aliquam at enim nibh. Sed eget porta sem, ut scelerisque massa. Nunc ultricies tellus vitae consequat sagittis. Morbi feugiat, odio at condimentum scelerisque, turpis erat vehicula tortor, ut tristique arcu tellus a elit. Integer eleifend fringilla odio et lobortis. Mauris pulvinar non nulla nec gravida. Pellentesque sollicitudin facilisis neque non eleifend. Etiam dignissim consequat orci, nec malesuada orci feugiat et. Vivamus sit amet dignissim neque. Maecenas risus lectus, luctus ut nibh eget, placerat euismod ex. Nam dignissim id elit in suscipit. Suspendisse potenti. Ut eu odio a libero pretium interdum. Aliquam nec ultricies arcu. Cras nec bibendum eros.<br><br>Aenean fermentum pretium lorem sed sagittis. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis gravida ornare tempor. Nam sagittis mi sit amet nulla mollis rhoncus. Duis iaculis mollis sollicitudin. Phasellus tempor semper laoreet. Pellentesque venenatis consequat mi, ut mollis nunc mollis et. Pellentesque nunc felis, molestie maximus lectus nec, commodo placerat odio. Maecenas ullamcorper malesuada interdum. Nam ac posuere nulla. Sed turpis urna, eleifend euismod semper ut, elementum vitae quam. Aliquam erat volutpat. Nulla vestibulum interdum dui, a pulvinar metus tristique ut. Duis tellus quam, convallis a sagittis in, sodales quis tellus. Aenean blandit metus in dignissim semper.",
+  },
+];
 
-const Writing = () => {
-  return <div>Writing</div>;
-};
-
-export default Writing;
+export default writing;

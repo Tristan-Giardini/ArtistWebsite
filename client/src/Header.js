@@ -1,8 +1,23 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { MobileContext } from "./MobileContext";
 
 const Header = () => {
-  return (
+  const { isMobile } = useContext(MobileContext);
+  return isMobile ? (
+    <Container>
+      <Wrapper>
+        <Name to="/">Rebecca Storm</Name>
+        <SubNav>
+          <StyledNav to="/painting">painting</StyledNav>
+          <StyledNav to="/photography">photography</StyledNav>
+          <StyledNav to="writing">writing</StyledNav>
+        </SubNav>
+      </Wrapper>
+      <Gradient></Gradient>
+    </Container>
+  ) : (
     <Container>
       <Wrapper>
         <Name to="/">Rebecca Storm</Name>
@@ -29,6 +44,18 @@ const Wrapper = styled.div`
   justify-content: space-between;
   font-family: var(--secondary-font);
   background-color: white;
+  @media (max-width: 390px) {
+    flex-direction: column;
+  }
+`;
+
+const SubNav = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 150%;
+  padding: 6% 0 3% 0;
 `;
 
 const StyledNav = styled(NavLink)`
@@ -46,7 +73,7 @@ const Name = styled(NavLink)`
   text-decoration: none;
   font-family: var(--font);
   @media (max-width: 390px) {
-    font-size: 80%;
+    font-size: 200%;
   }
 `;
 

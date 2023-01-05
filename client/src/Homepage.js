@@ -28,17 +28,9 @@ const Wrapper = styled.div`
 const Intro = styled.div`
   padding: 2%;
   font-size: 150%;
-  margin: 2% 0% 2% 0%;
+  margin: 1% 0% 1% 0%;
   display: flex;
   flex-direction: row;
-  @media (max-width: 390px) {
-    font-size: 75%;
-`;
-
-const Underline = styled.div`
-  font-family: var(--font);
-  text-decoration: underline;
-  padding: 2%;
 `;
 
 const Description = styled.div`
@@ -46,7 +38,16 @@ const Description = styled.div`
   /* padding-top: 1%; */
   font-size: 80%;
   div {
-    padding-bottom: 7%;
+    padding-bottom: 4%;
+  }
+`;
+
+const Underline = styled.div`
+  font-family: var(--font);
+  text-decoration: underline;
+  padding: 2%;
+  @media (max-width: 390px) {
+    font-size: 200%;
   }
 `;
 
@@ -60,6 +61,7 @@ const SelectedWork = styled.div`
   flex-direction: column;
   @media (max-width: 390px) {
     font-size: 75%;
+  }
 `;
 
 export default Homepage;

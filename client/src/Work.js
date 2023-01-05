@@ -2,17 +2,13 @@ import styled from "styled-components";
 import ModalImage from "react-modal-image";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect, useState } from "react";
+import { useEffect, useContext } from "react";
+import { MobileContext } from "./MobileContext";
 
 const Work = ({ data }) => {
-  const [isMobile, setIsMobile] = useState(false);
-
+  const { isMobile } = useContext(MobileContext);
   useEffect(() => {
     Aos.init({ duration: 1000 });
-
-    if (window.screen.width < 800) {
-      setIsMobile(true);
-    }
   }, []);
   return isMobile ? (
     <>
@@ -20,7 +16,12 @@ const Work = ({ data }) => {
         return (
           <Wrapper key={index} data-aos="fade-up">
             <Image>
-              <ModalImage small={object.work} large={object.work} />
+              <ModalImage
+                small={object.work}
+                large={object.work}
+                hideZoom={true}
+                hideDownload={true}
+              />
             </Image>
             <Credits>
               <Title>
@@ -59,7 +60,12 @@ const Work = ({ data }) => {
               <Time>{object.time}</Time>
             </Credits>
             <Image>
-              <ModalImage small={object.work} large={object.work} />
+              <ModalImage
+                small={object.work}
+                large={object.work}
+                hideZoom={true}
+                hideDownload={true}
+              />
             </Image>
           </Wrapper>
         );
@@ -92,7 +98,7 @@ const Wrapper = styled.div`
 const Image = styled.div`
   width: 35%;
   @media (max-width: 390px) {
-    width: 75%;
+    width: 90%;
   }
 `;
 
@@ -107,8 +113,8 @@ const Credits = styled.div`
     padding-bottom: 2.5%;
   }
   @media (max-width: 390px) {
-    font-size: 40%;
-    width: 75%;
+    font-size: 150%;
+    width: 80%;
     padding-top: 2.5%;
   }
 `;
@@ -116,6 +122,9 @@ const Credits = styled.div`
 const Title = styled.div`
   font-family: var(--font);
   font-size: 125%;
+  @media (max-width: 390px) {
+    font-size: 150%;
+  }
 `;
 
 const Year = styled.span`
@@ -142,6 +151,7 @@ const BackToTop = styled.div`
   :hover {
     cursor: pointer;
   }
+  padding-bottom: 2%;
 `;
 
 export default Work;
