@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import writing from "./assets/writing";
 import { useNavigate } from "react-router-dom";
