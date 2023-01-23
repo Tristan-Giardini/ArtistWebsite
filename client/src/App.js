@@ -6,6 +6,7 @@ import Painting from "./Painting";
 import Photography from "./Photography";
 import Writing from "./Writing";
 import WritingExample from "./WritingExample";
+import Photos from "./Photos";
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/painting" element={<Painting />} />
-        <Route path="/photography" element={<Photography />} />
+        <Route path="/photography" element={<Photos />} />
         <Route path="/writing" element={<Writing />} />
         <Route path="/writing/:piece" element={<WritingExample />} />
       </Routes>

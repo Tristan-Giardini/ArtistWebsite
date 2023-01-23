@@ -13,382 +13,395 @@ const Photography = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <Container>
-      <Wrapper>
-        <ColumnOne>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-        </ColumnOne>
-        <ColumnTwo>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-        </ColumnTwo>
-        <ColumnThree>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={boat}
-              large={boat}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={child}
-              large={child}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-          <div data-aos="fade-up">
-            <ModalImage
-              small={woods}
-              large={woods}
-              hideZoom={true}
-              hideDownload={true}
-            />
-          </div>
-        </ColumnThree>
-      </Wrapper>
-    </Container>
+    <>
+      <Container>
+        <Wrapper>
+          <ColumnOne>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+                alt="My Photo, 2023"
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+          </ColumnOne>
+          <ColumnTwo>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+          </ColumnTwo>
+          <ColumnThree>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={boat}
+                large={boat}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={child}
+                large={child}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+            <div data-aos="fade-up">
+              <ModalImage
+                small={woods}
+                large={woods}
+                hideZoom={true}
+                hideDownload={true}
+              />
+            </div>
+          </ColumnThree>
+        </Wrapper>
+      </Container>
+      <BackToTop>
+        <div
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
+          Back to top
+        </div>
+      </BackToTop>
+    </>
   );
 };
 
 const Container = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: 2%;
 `;
 
 const Wrapper = styled.div`
@@ -405,7 +418,7 @@ const ColumnOne = styled.div`
   align-items: center;
   div {
     max-width: 100%;
-    padding: 1%;
+    padding-bottom: 1%;
   }
 `;
 
@@ -413,9 +426,10 @@ const ColumnTwo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 1% 0 1%;
   div {
     max-width: 100%;
-    padding: 1%;
+    padding-bottom: 1%;
   }
 `;
 
@@ -425,8 +439,20 @@ const ColumnThree = styled.div`
   align-items: center;
   div {
     max-width: 100%;
-    padding: 1%;
+    padding-bottom: 1%;
   }
+`;
+
+const BackToTop = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150%;
+  font-family: var(--font);
+  :hover {
+    cursor: pointer;
+  }
+  padding-bottom: 2%;
 `;
 
 export default Photography;

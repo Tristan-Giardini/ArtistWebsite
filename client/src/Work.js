@@ -107,7 +107,7 @@ const Credits = styled.div`
   align-items: flex-start;
   flex-direction: column;
   width: 50%;
-  font-family: var(--secondary-font);
+  font-family: var(--font);
   font-size: 80%;
   div {
     padding-bottom: 2.5%;
@@ -147,6 +147,7 @@ const BackToTop = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 100%;
   font-family: var(--font);
   :hover {
     cursor: pointer;
