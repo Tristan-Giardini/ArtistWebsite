@@ -1,11 +1,11 @@
-import bbymutha1 from "../assets/bbymutha/bbymutha1.jpeg";
-import bbymutha3 from "../assets/bbymutha/bbymutha3.jpeg";
-import bbymutha5 from "../assets/bbymutha/bbymutha5.jpeg";
-import bbymutha6 from "../assets/bbymutha/bbymutha6.jpeg";
-import bbymutha7 from "../assets/bbymutha/bbymutha7.jpeg";
-import bbymutha8 from "../assets/bbymutha/bbymutha8.jpeg";
-import bbymutha9 from "../assets/bbymutha/bbymutha9.jpeg";
-import bbymutha10 from "../assets/bbymutha/bbymutha10.jpeg";
+import bbymutha1 from "../assets/bbymutha/bbymutha1.jpg";
+import bbymutha3 from "../assets/bbymutha/bbymutha3.jpg";
+import bbymutha5 from "../assets/bbymutha/bbymutha5.jpg";
+import bbymutha6 from "../assets/bbymutha/bbymutha6.jpg";
+import bbymutha7 from "../assets/bbymutha/bbymutha7.jpg";
+import bbymutha8 from "../assets/bbymutha/bbymutha8.jpg";
+import bbymutha9 from "../assets/bbymutha/bbymutha9.jpg";
+import bbymutha10 from "../assets/bbymutha/bbymutha10.jpg";
 
 const bbymutha = [
   [

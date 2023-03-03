@@ -1,8 +1,8 @@
-import extralandscape from "../assets/margielatabi/extralandscape.jpeg";
-import extralandscape2 from "../assets/margielatabi/extralandscape2.jpeg";
-import keychain from "../assets/margielatabi/Keychain.jpeg";
-import tabiheel from "../assets/margielatabi/TabiHeel.jpeg";
-import tabipaint from "../assets/margielatabi/TabiPaint.jpeg";
+import extralandscape from "../assets/margielatabi/extralandscape.jpg";
+import extralandscape2 from "../assets/margielatabi/extralandscape2.jpg";
+import keychain from "../assets/margielatabi/Keychain.jpg";
+import tabiheel from "../assets/margielatabi/TabiHeel.jpg";
+import tabipaint from "../assets/margielatabi/TabiPaint.jpg";
 
 const margielatabi = [
   [
