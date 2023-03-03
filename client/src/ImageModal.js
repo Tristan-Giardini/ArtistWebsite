@@ -14,10 +14,12 @@ function ImageModal({ photography }) {
   const handleOpenModal = (index) => {
     setSlideNumber(index);
     setOpenModal(true);
+    document.body.style.overflow = "hidden";
   };
 
   const handleCloseModal = () => {
     setOpenModal(false);
+    document.body.style.overflow = "scroll";
   };
   const prevSlide = () => {
     slideNumber === 0
