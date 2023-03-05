@@ -3,20 +3,35 @@ import ModalImage from "react-modal-image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useContext } from "react";
+import ImageModal from "./ImageModal";
+import random from "./assets/random";
+import portraits from "./assets/portraits";
+import bbymutha from "./assets/photography";
+import margielatabi from "./assets/margielatabi";
 import { MobileContext } from "./MobileContext";
 import boat from "./assets/boat.jpeg";
 import child from "./assets/child.jpeg";
 import woods from "./assets/woods.jpeg";
 
 const Photography = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({ duration: 1000 });
+  // }, []);
   return (
     <>
       <Container>
         <Wrapper>
           <ColumnOne>
+            <ImageModal photography={bbymutha[0]} />
+            <ImageModal photography={margielatabi[0]} />
+          </ColumnOne>
+          <ColumnTwo>
+            <ImageModal photography={portraits[0]} />
+          </ColumnTwo>
+          <ColumnThree>
+            <ImageModal photography={random[0]} />
+          </ColumnThree>
+          {/* <ColumnOne>
             <div data-aos="fade-up">
               <ModalImage
                 small={boat}
@@ -382,7 +397,7 @@ const Photography = () => {
                 hideDownload={true}
               />
             </div>
-          </ColumnThree>
+          </ColumnThree> */}
         </Wrapper>
       </Container>
       <BackToTop>

@@ -1,11 +1,14 @@
 import styled from "styled-components";
 import ModalImage from "react-modal-image";
+import ImageModal from "./ImageModal";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useContext } from "react";
 import { MobileContext } from "./MobileContext";
+import boat from "../src/assets/boat.jpeg";
 
 const Work = ({ data }) => {
+  const boatImg = [[{ img: boat }]];
   const { isMobile } = useContext(MobileContext);
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -60,12 +63,7 @@ const Work = ({ data }) => {
               <Time>{object.time}</Time>
             </Credits>
             <Image>
-              <ModalImage
-                small={object.work}
-                large={object.work}
-                hideZoom={true}
-                hideDownload={true}
-              />
+              <ImageModal photography={boatImg[0]} />
             </Image>
           </Wrapper>
         );
