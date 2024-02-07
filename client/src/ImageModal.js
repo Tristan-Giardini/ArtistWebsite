@@ -170,7 +170,7 @@ const CloseFontAwesomeIcon = styled(FontAwesomeIcon)`
 const PrevFontAwesomeIcon = styled(FontAwesomeIcon)`
   position: fixed;
   cursor: ${(props) => (props.disabled ? "default" : "pointer")};
-  opacity: ${(props) => (props.disabled ? 0.1 : 0.6)};
+  opacity: ${(props) => (props.disabled ? 0.0 : 0.6)};
   pointer-events: ${(props) => (props.disabled ? "none" : "auto")};
   color: black;
   z-index: 9999;
@@ -190,7 +190,7 @@ const PrevFontAwesomeIcon = styled(FontAwesomeIcon)`
 const NextFontAwesomeIcon = styled(FontAwesomeIcon)`
   position: fixed;
   cursor: ${(props) => (props.disabled ? "default" : "pointer")};
-  opacity: ${(props) => (props.disabled ? 0.1 : 0.6)};
+  opacity: ${(props) => (props.disabled ? 0.0 : 0.6)};
   pointer-events: ${(props) => (props.disabled ? "none" : "auto")};
   color: black;
   z-index: 9999;
